@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "tsc"
   },
   "files": [
     "dist"
@@ -31,7 +32,7 @@
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.30.0",
-    "@solana/spl-token": "^0.4.6",
+    "@solana/spl-token": "~0.3.0",
     "@solana/web3.js": "^1.92.1"
   }
 }
